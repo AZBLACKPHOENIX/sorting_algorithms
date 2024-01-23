@@ -1,0 +1,9 @@
+O(n log n)  // Best case: The best case time complexity is O(n log n) when the pivot
+            // consistently divides the array into two roughly equal halves.
+
+O(n log n)  // Average case: The average case time complexity is O(n log n) where n is
+            // the size of the array. This is the expected case when the pivot selection
+            // and partitioning are done efficiently.
+
+O(n^2)      // Worst case: The worst case time complexity is O(n^2) when the pivot selection
+            // consistently results in poorly balanced partitions (e.g., already sorted array).

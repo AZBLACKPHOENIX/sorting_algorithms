@@ -1,0 +1,11 @@
+O(1)    // Best case: The best case time complexity is O(1) because the algorithm
+        // always performs the same number of comparisons and swaps regardless of the input order.
+
+O(n^2)  // Average case: The average case time complexity is O(n^2) where n is the size of the array.
+        // This is because, in each iteration of the outer loop, the algorithm finds the minimum element
+        // in the unsorted portion of the array, and there are roughly (n^2)/2 total iterations.
+
+O(n^2)  // Worst case: The worst case time complexity is O(n^2), occurring when the array is in reverse order.
+        // In each iteration of the outer loop, the algorithm finds the minimum element, and there are
+        // roughly (n^2)/2 total iterations.
+
